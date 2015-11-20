@@ -34,6 +34,7 @@ func main() {
 	}
 
 	stringOfDigits := os.Args[1]
+	// for row := 0; row < len(bigDigit[0]); row++ {
 	for row := range bigDigits[0] {
 		line := ""
 		for col := range stringOfDigits {
