@@ -4,7 +4,7 @@ import "fmt"
 
 func main() {
 	// new
-	s = new(string)
+	s := new(string)
 	fmt.Println("%s\n", s)
 	fmt.Println(*s)
 
